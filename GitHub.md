@@ -36,5 +36,5 @@ En este informe veremos como se crea una cuenta, como se crea un nuevo repositor
 GitHub es una herramienta súper útil para los desarrolladores, ya que facilita el trabajo en equipo y puedes llevar un control de versiones del que fiarte.
 Gracias a sus funcionalidades, se convierte en una herramienta súper útil para coordinar equipos.
 ### Bibliografía
-. GitHub Docs: https://docs.github.com
-. Pro Git Book: https://git-scm.com/book/es
+* GitHub Docs: https://docs.github.com
+* Pro Git Book: https://git-scm.com/book/es
