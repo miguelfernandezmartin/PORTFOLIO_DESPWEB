@@ -7,32 +7,48 @@ En este informe veremos como se crea una cuenta, como se crea un nuevo repositor
 #### 1. Crear una cuenta
     1. Ir a https://github.com.
     2. Haz clic en Sign Up.
-    ![inicio de sesión.](/GitHubCaps/inicioSesion.png)
     3. Completa el formulario de registro con correo, usuario y contraseña.
 #### 2. Crear un nuevo repositorio
-    1. Inicia sesión en tu cuenta de GitHub.
-    2. Haz clic en el botón "New repository".
-    3. Escribe el nombre del repositorio a crear.
-    4. Selecciona la privacidad del repositorio (público o privado).
-    5. Marca la casilla "Add a README file" si quieres que se incluya un archivo README.
-    6. Pulsa el botón "Create repository".
+Inicia sesión en tu cuenta de GitHub.
+    ![inicio de sesión](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/inicioSesion.png)
+    ![pantalla principal](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/pantallaPrincipal.png)
+Haz clic en el botón "New repository".
+    ![nuevo repositorio](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/nuevoRepositorio.png)
+Escribe el nombre del repositorio a crear.
+Selecciona la privacidad del repositorio (público o privado).
+Marca la casilla "Add a README file" si quieres que se incluya un archivo README.
+Pulsa el botón "Create repository".
+    ![repositorio creado](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/repositorioCreado.png)
 #### 3. Subir archivos al repositorio
-    1. Entra al repositorio creado.
-    2. Haz clic en el botón "Add file" y luego "Upload files".
-    3. Arrastra los archivos dentro del cuadro o selecciónalos con el explorador de archivos.
-    4. Escribe mensaje de confirmación para hacer el "Commit changes".
+Entra al repositorio creado.
+Haz clic en el botón "Add file" y luego "Upload files".
+    ![subir archivo.](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/subirArchivo.png)
+Arrastra los archivos dentro del cuadro o selecciónalos con el explorador de archivos.
+Escribe mensaje de confirmación para hacer el "Commit changes".
+    ![subiendo archivo.](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/subiendoArchivo.png)
+    ![ver archivo.](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/verArchivo.png)
+    ![contenido archivo.](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/contenidoArchivo.png)
 #### 4. Crear y trabajar con ramas
-    1. En el repositorio, haz clic en el menú "main".
-    2. Escribe el nombre de la nueva rama y pulsa "Create Branch".
-    3. Edita archivos en esa rama.
-    4. Fusiona los cambios con la rama "main" usando "Pull Request".
+En el repositorio, haz clic en el menú "main".
+Escribe el nombre de la nueva rama y pulsa "Create Branch".
+![rama main](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/contenidoArchivo.png)
+Edita archivos en esa rama.
+![archivo cambiado](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/archivoCambiado.png)
+Fusiona los cambios con la rama "main" usando "Pull Request".
 #### 5. Colaborar mediante Pull Requests
-    1. Ve a la pestaña Pull Requests del repositorio.
-    2. Haz clic en "New Pull Request".
-    3. Selecciona la rama que creaste y compárala con "main".
-    4. Escribe un título y lo que has cambiado para que tu compañero lo sepa.
-    5. Clica en "Create Pull Request".
-    6. Otro colaborador podrá revisarlo y probarlo antes de hacer el merge.
+Ve a la pestaña Pull Requests del repositorio.
+Haz clic en "New Pull Request".
+Selecciona la rama que creaste y compárala con "main".
+![pull request](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/pullRequest.png)
+Escribe un título y lo que has cambiado para que tu compañero lo sepa.
+![titulo pull request](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/crearPullRequest.png)
+Clica en "Create Pull Request".
+![merge](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/mergePullRequest.png)
+![commit merge](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/commitMerge.png)
+![rama main](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/contenidoArchivo.png)
+![settings](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/settings.png)
+Otro colaborador podrá revisarlo y probarlo antes de hacer el merge.
+![collaborators](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/GitHubCaps/collaborators.png)
 ### Conclusiones
 GitHub es una herramienta súper útil para los desarrolladores, ya que facilita el trabajo en equipo y puedes llevar un control de versiones del que fiarte.
 Gracias a sus funcionalidades, se convierte en una herramienta súper útil para coordinar equipos.
