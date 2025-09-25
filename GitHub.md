@@ -7,6 +7,7 @@ En este informe veremos como se crea una cuenta, como se crea un nuevo repositor
 #### 1. Crear una cuenta
     1. Ir a https://github.com.
     2. Haz clic en Sign Up.
+    ![inicio de sesión.](/GitHubCaps/inicioSesion.png)
     3. Completa el formulario de registro con correo, usuario y contraseña.
 #### 2. Crear un nuevo repositorio
     1. Inicia sesión en tu cuenta de GitHub.
