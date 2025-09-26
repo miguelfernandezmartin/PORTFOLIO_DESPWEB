@@ -1,0 +1,39 @@
+# Archivos de credenciales y configuraciones sensibles
+.env
+*.env
+config/*.local.php
+config/*.local.yaml
+*.secret
+*.key
+*.pem
+
+# Archivos temporales del sistema
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias (se instalan vía gestor)
+node_modules/
+vendor/
+
+# Archivos de compilación y binarios
+/dist
+/build
+*.exe
+*.dll
+*.so
+*.o
+*.out
+*.class
+*.jar
+
+# Archivos de IDE/editores
+.idea/
+.vscode/
+*.iml
+
+# Archivos de pruebas locales
+coverage/
+tests/output/
