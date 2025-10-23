@@ -1,116 +1,98 @@
-# Instalación y uso de Docker en Ubuntu
-#### Miguel Fernández Martín
+# INSTALACIÓN DOCKER DESKTOP EN UBUNTU
 
-### Introducción
-Docker es una herramienta que permite crear, desplegar y ejecutar aplicaciones dentro de contenedores. En este informe veremos cómo instalar Docker Desktop en Ubuntu, cómo ejecutar contenedores web y verificar su funcionamiento.
+## Actualiza repositorios
 
-### 1. Instalación de Docker Desktop en Ubuntu
-Para comenzar, debemos actualizar los repositorios e instalar las dependencias necesarias.
+![Actualización de repositorios](imagenes/cap1.png)  
+Se actualizan los paquetes del sistema para asegurar versiones recientes.
 
-```bash
-sudo apt update
-sudo apt install -y ca-certificates curl gnupg
-```
+---
 
-![instalacion docker](imagenesVirt/imagen1.png)
+## INSTALAR DEPENDENCIAS NECESARIAS
 
-A continuación, agregamos la clave GPG de Docker:
+![Instalación de dependencias](imagenes/cap2.png)  
+Se instalan herramientas necesarias como `curl` y certificados.
 
-```bash
-sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/keyrings/docker.asc > /dev/null
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-```
+---
 
-![clave gpg](imagenesVirt/imagen2.png)
+## AGREGAR CLAVE GPG DE DOCKER
 
-Ahora configuramos el repositorio oficial de Docker:
+![Agregar clave GPG](imagenes/cap3.png)  
+Se descarga y guarda la clave GPG para verificar la autenticidad de Docker.
 
-```bash
-echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc]   https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+---
 
-sudo apt update
-```
+## AGREGAR REPOSITORIO OFICIAL DE DOCKER
 
-![repositorio docker](imagenesVirt/imagen3.png)
+![Agregar repositorio Docker](imagenes/cap4.png)  
+Se añade el repositorio oficial de Docker a las fuentes de APT.
 
-Instalamos Docker con el siguiente comando:
+---
 
-```bash
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-```
+## INSTALAR DOCKER
 
-![instalacion completa](imagenesVirt/imagen4.png)
+![Inicio de instalación de Docker](imagenes/cap5.png)  
+Se inicia la instalación de Docker y sus componentes principales.
 
-### 2. Verificar la instalación
-Comprobamos que Docker se está ejecutando correctamente:
+![Instalación en progreso](imagenes/cap6.png)  
+Docker se descarga desde el repositorio y se instala en el sistema.
 
-```bash
-sudo systemctl status docker
-```
+![Instalación finalizada](imagenes/cap7.png)  
+La instalación se completa sin errores y Docker queda listo para usarse.
 
-![estado docker](imagenesVirt/imagen5.png)
+---
 
-Podemos probar la instalación ejecutando una imagen de prueba:
+## VERIFICAR LA INSTALACIÓN
 
-```bash
-sudo docker run hello-world
-```
+![Estado del servicio Docker](imagenes/cap8.png)  
+Se comprueba que el servicio Docker está activo y funcionando.
 
-![docker hello world](imagenesVirt/imagen6.png)
+---
 
-### 3. Instalación de contenedores web
-#### Buscar imágenes disponibles
+## PROBAR DOCKER CON UNA IMAGEN DE PRUEBA
 
-Podemos buscar imágenes oficiales desde Docker Hub, por ejemplo, Nginx:
+![Ejecutar imagen hello-world](imagenes/cap9.png)  
+Se ejecuta la imagen `hello-world` para verificar que Docker funciona correctamente.
 
-```bash
-docker search nginx
-```
+---
 
-![busqueda nginx](imagenesVirt/imagen7.png)
+# INSTALACIÓN DE CONTENEDORES EN SERVIDOR WEB
 
-#### Descargar e iniciar contenedores
+## BUSCAR IMÁGENES DISPONIBLES
 
-Ejecutamos el contenedor Nginx:
+![Buscar imagen nginx](imagenes/cap10.png)  
+Se buscan imágenes relacionadas con Nginx en Docker Hub.
 
-```bash
-docker run -d -p 8080:80 --name webserver nginx
-```
+![Buscar imagen tomcat](imagenes/cap11.png)  
+Se buscan imágenes relacionadas con Tomcat en Docker Hub.
 
-![nginx corriendo](imagenesVirt/imagen8.png)
+---
 
-También podemos ejecutar Tomcat:
+## DESCARGAR E INICIAR CONTENEDORES
 
-```bash
-docker run -d -p 8081:8080 --name appserver tomcat
-```
+![Ejecutar contenedor Tomcat](imagenes/cap12.png)  
+Se descarga y lanza un contenedor Tomcat en segundo plano.
 
-![tomcat corriendo](imagenesVirt/imagen9.png)
+![Ejecutar contenedor Nginx](imagenes/cap13.png)  
+Se descarga y lanza un contenedor Nginx en segundo plano.
 
-#### Verificar contenedores activos
+---
 
-```bash
-docker ps
-```
+## VERIFICAR CONTENEDORES ACTIVOS
 
-![contenedores activos](imagenesVirt/imagen10.png)
+![Contenedores activos](imagenes/cap14.png)  
+Se listan los contenedores en ejecución y sus puertos asignados.
 
-### 4. Acceder desde el navegador
-Abrimos el navegador y comprobamos que los servicios estén funcionando:
+---
 
-- **http://localhost:8080** → muestra la página de bienvenida de Nginx.  
-- **http://localhost:8081** → carga el servidor Tomcat.
+## ABRIR EN EL NAVEGADOR
 
-![nginx navegador](imagenesVirt/imagen11.png)
-![tomcat navegador](imagenesVirt/imagen12.png)
+![Página de bienvenida Nginx](imagenes/cap15.png)  
+Se accede al contenedor Nginx desde el navegador y muestra la página por defecto.
 
-### Conclusiones
-Docker simplifica el despliegue de aplicaciones al permitir ejecutar servicios en contenedores aislados. Facilita la portabilidad, reduce errores entre entornos y mejora la eficiencia del desarrollo.
+![Error 404 en Tomcat](imagenes/cap16.png)  
+Se accede al contenedor Tomcat, pero no hay contenido desplegado aún.
 
-### Bibliografía
-* [Documentación oficial de Docker](https://docs.docker.com)
-* [Docker Hub](https://hub.docker.com)
+
 
 ## Requerimientos Mínimos para Implantar una Aplicación Web
 
