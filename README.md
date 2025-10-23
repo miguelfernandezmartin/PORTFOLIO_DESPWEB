@@ -4,5 +4,5 @@ Portfolio del módulo de Despliegue de Aplicaciones Web
 * [Enlaces UD1](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/UD1:GitHubYMarkdown/enlaces_UD1.md)
 * [Diario UD1](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/UD1:GitHubYMarkdown/diario_UD1.md)
 ## UNIDAD 2
-* [Enlaces UD2](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/UD1:GitHubYMarkdown/enlaces_UD1.md)
-* [Diario UD2](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/UD2)
+* [Enlaces UD2](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/UD2:introduccion%20a%20las%20Aplicaciones%20%20Web/enlaces_UD2.md)
+* [Diario UD2](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/UD2:introduccion%20a%20las%20Aplicaciones%20%20Web/diario_UD2.md)
