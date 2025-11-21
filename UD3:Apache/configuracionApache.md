@@ -1,10 +1,10 @@
 # Servidor Web Apache: Introducción y Aplicaciones Básicas
 
-## 📋 Resumen
+## Resumen
 Este documento presenta una introducción al servidor web Apache, describiendo su contexto de uso, las actividades realizadas, los resultados obtenidos y las conclusiones finales.  
 Incluye instalación, configuración básica y control de acceso mediante `.htaccess`, siguiendo el tutorial oficial de Ubuntu y pruebas realizadas en local.
 
-## 🔑 Palabras clave
+## Palabras clave
 Apache, servidor web, HTTP, hosting, código abierto, Nginx, IIS, Ubuntu
 
 ---
@@ -44,59 +44,61 @@ https://ubuntu.com/tutorials/install-and-configure-apache#2-installing-apache
 Se instaló Apache en Ubuntu Desktop 24.04.  
 
 ### Comprobación del estado del servicio
-![foto1](images/foto1.png)
+![foto1](foto1.png)
 
 ### Comprobación en el navegador
-![foto2](images/foto2.png)
+![foto2](foto2.png)
 
 ---
 
 ## 2.2 Creación de un sitio web sencillo
 Se creó un sitio web básico con HTML dentro de `/var/www/html`.
 
-![foto3](images/foto3.png)
+![foto3](foto3.png)
 
 ---
 
 ## 2.3 Configuración de Virtual Hosts
 Todos los pasos del punto 3 del tutorial de Ubuntu fueron completados.
 
-![foto4](images/foto4.png)
+![foto4](foto4.png)
 
 ---
 
 ## 2.4 Archivo de configuración de VirtualHost
 Se ajustaron los parámetros del archivo `.conf` correspondiente.
 
-![foto5](images/foto5.png)
+![foto5](foto5.png)
 
 ---
 
 ## 2.5 Activación del VirtualHost
 Se añadió el dominio al archivo `/etc/hosts`.
 
-![foto6](images/foto6.png)
-![foto7](images/foto7.png)
-![foto8](images/foto8.png)
+![foto6](foto6.png)
+![foto7](foto7.png)
+![foto8](foto8.png)
 
 El dominio funciona sin certificado, pero con HTTPS no se logró finalizar la configuración.
 
 ---
 
 ## 2.6 Configuración de `.htaccess`
+Se configura el archivo htaccess
 
-![foto9](images/foto9.png)
+![foto9](foto9.png)
+
 ---
 
 ## 2.7 Generación del archivo de contraseñas
-![foto10](![foto7](images/foto10.png))
+![foto10](foto10.png)
 
 ---
 
 ## 2.8 Permisos para que `.htaccess` funcione
 Se habilitó `AllowOverride All`.
 
-![foto11](![foto7](images/foto11.png))
+![foto11](foto11.png)
 
 ---
 
