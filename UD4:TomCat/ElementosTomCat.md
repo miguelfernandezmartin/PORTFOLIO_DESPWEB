@@ -1,4 +1,5 @@
 # Componentes y Funcionamiento de Apache Tomcat
+![img](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/UD4%3ATomCat/tomCat.webp)
 
 ## Componentes principales de Tomcat
 
@@ -28,7 +29,7 @@
 ---
 
 ## Estructura básica de directorios
-![img]()
+![img](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/UD4%3ATomCat/arbolTomCat.png)
 
 
 ---
