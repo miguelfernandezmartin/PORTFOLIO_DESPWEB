@@ -55,7 +55,7 @@ Esto confirma que el despliegue se ha realizado correctamente.
 
 ## 5. Evidencia del funcionamiento (captura de pantalla)
 
-A continuación se muestra la evidencia del acceso correcto a la aplicación desplegada:
+Muestra de la evidencia del acceso correcto a la aplicación desplegada:
 
 ![Evidencia del despliegue de sample.war en Tomcat](evidencia_sample_war_tomcat.png)
 
