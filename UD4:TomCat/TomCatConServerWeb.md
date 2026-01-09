@@ -36,10 +36,10 @@ Editar el archivo de configuración por defecto:
 sudo nano /etc/apache2/sites-available/000-default.conf
 
 Añadir dentro de este archivo:
-ProxyPreserveHost On
 
-ProxyPass /sample http://localhost:8080/sample
-ProxyPassReverse /sample http://localhost:8080/sample
+ProxyPreserveHost On  
+ProxyPass /sample http://localhost:8080/sample  
+ProxyPassReverse /sample http://localhost:8080/sample  
 
 Guardar cambios y reiniciamos Apache:
 sudo systemctl restart apache2
