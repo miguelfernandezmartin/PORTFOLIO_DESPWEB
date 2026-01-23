@@ -26,8 +26,9 @@ Tiempo medio por petición: 34,861 ms
 
 Archivo modificado: conf/server.xml
 
-Configuración ajustada del conector HTTP
-![Evidencia cambios en server.xml](serverXMLupdated.png)
+![Evidencia cambios en server.xml](serverXMLupdated.png) 
+
+Configuración ajustada del conector HTTP 
 
 Cambios realizados:
 Aumento de hilos
