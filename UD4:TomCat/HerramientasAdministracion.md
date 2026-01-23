@@ -9,6 +9,8 @@ URL: https://localhost:8443/manager/html
 Credenciales:
 - Usuario con rol `manager-gui`
 
+![Evidencia Manager](managerEv.png)
+
 ---
 
 ### 1.2 Acceso a Host Manager
@@ -17,6 +19,8 @@ URL: https://localhost:8443/host-manager/html
 
 Credenciales:
 - Usuario con rol `admin-gui`
+
+![Evidencia Host-Manager](hostManagerEv.png)
 
 ---
 
