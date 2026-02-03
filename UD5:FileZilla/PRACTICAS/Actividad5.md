@@ -46,7 +46,13 @@ ftp> ls               # El cliente conecta al puerto aleatorio del servidor
 ### No me funciona el login a ftp con el usuario, no sé por qué
 ![img](https://github.com/miguelfernandezmartin/PORTFOLIO_DESPWEB/blob/main/UD5%3AFileZilla/images/capEJ5.png)
 
-## 3. Tabla Comparativa
+## 3. Análisis: ¿Qué modo funciona mejor con Firewall?
+El Modo Pasivo es el estándar actual y el que mejor funciona en redes con Firewall/NAT.
+
+En el modo activo, el servidor inicia una conexión hacia el cliente; los firewalls modernos bloquean cualquier conexión entrante que el usuario no haya solicitado explícitamente. En cambio, en el Modo Pasivo, es el cliente quien solicita la conexión al servidor (tráfico de salida), lo cual es permitido por la mayoría de las configuraciones de red domésticas y empresariales sin necesidad de abrir puertos en el router del usuario. 
+ 
+
+## Tabla Comparativa
 
 ### Comparativa: Modo Activo vs Modo Pasivo
 
